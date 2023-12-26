@@ -21,6 +21,7 @@ turtle.colormode(255)
 turtle.Screen().bgcolor(0, 0, 0)
 turtle.goto(-800, 300)
 turtle.pencolor(255, 182, 193)
+
 for i in range(200):
     t.goto((xt(i) * 20, yt(i) * 20))
     t.pencolor((255 - i) % 255, i % 255, (255 + i) // 2 % 255)
